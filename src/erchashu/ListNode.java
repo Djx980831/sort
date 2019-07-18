@@ -1,5 +1,6 @@
 package erchashu;
 
+
 /**
  * @ClassName ListNode
  * @Description TODO
@@ -8,4 +9,11 @@ package erchashu;
  * @Version 1.0
  **/
 public class ListNode {
+       ListNode left;
+    ListNode right;
+    int val;
+
+    public ListNode(int val) {
+        this.val = val;
+    }
 }
