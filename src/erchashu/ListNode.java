@@ -9,7 +9,7 @@ package erchashu;
  * @Version 1.0
  **/
 public class ListNode {
-       ListNode left;
+    ListNode left;
     ListNode right;
     int val;
 
