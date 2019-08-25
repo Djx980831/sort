@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a8b2ec5-f456-48ac-a306-14ae7ed935d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/search/BinSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/search/BinSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common_interview/Frog_jumps_steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/search/BinSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/search/BinSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/test/AA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/test/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/test/First.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/test/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/test/Second.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/test/Try.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,11 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/search/BinSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="68">
               <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/common_interview/Frog_jumps_steps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -106,6 +123,7 @@
         <option value="$PROJECT_DIR$/src/test/Try.java" />
         <option value="$PROJECT_DIR$/src/search.java" />
         <option value="$PROJECT_DIR$/src/search/BinSearch.java" />
+        <option value="$PROJECT_DIR$/src/common_interview/Frog_jumps_steps.java" />
       </list>
     </option>
   </component>
@@ -145,7 +163,7 @@
               <item name="sort" type="b2602c69:ProjectViewProjectNode" />
               <item name="sort" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="common_interview" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,22 +199,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinSearch">
+  <component name="RunManager" selected="Application.Frog_jumps_steps">
     <configuration name="AA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.AA" />
-      <module name="sort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="B" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.B" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -214,6 +219,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Frog_jumps_steps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.Frog_jumps_steps" />
+      <module name="sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="common_interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -249,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Frog_jumps_steps" />
         <item itemvalue="Application.BinSearch" />
         <item itemvalue="Application.Try" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.AA" />
-        <item itemvalue="Application.B" />
       </list>
     </recent_temporary>
   </component>
@@ -273,12 +291,12 @@
       <workItem from="1563761338418" duration="840000" />
       <workItem from="1565335016846" duration="10968000" />
       <workItem from="1566310843242" duration="2001000" />
-      <workItem from="1566615630862" duration="6604000" />
+      <workItem from="1566615630862" duration="7989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42919000" />
+    <option name="totallyTimeSpent" value="44304000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -293,7 +311,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35286623" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35286623" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -301,7 +319,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.40327868" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.22292994" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.22292994" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -481,8 +499,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/search/BinSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="68">
           <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common_interview/Frog_jumps_steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
         </state>
       </provider>
     </entry>
