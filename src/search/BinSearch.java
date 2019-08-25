@@ -15,6 +15,8 @@ public class BinSearch {
         while (low <= high) {
             int mid = (low + high) / 2;
             if (key == arr[mid]) {
+                //查询数组中最后一次出现 key
+                //low = mid + 1;
                 return mid;
             } else if (key > arr[mid]) {
                 low = mid + 1;
