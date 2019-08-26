@@ -60,4 +60,23 @@ public class SingleList {
         reverse(a);
     }
 
+    //非递归的方法其实就是顺着头结点往尾结点遍历，遍历期间把每个结点的nextNode替换掉，
+    //替换过程需要注意临时存储下一个节点
+    public static SingleList reverse_1(SingleList node){
+        SingleList pre = node;
+        SingleList cur = node.next;
+        pre.next = null;
+        SingleList tmp = null;
+        while(cur != null){
+            tmp = cur.next;
+            cur.next = pre;
+            System.out.println("not ready:" + tmp);
+            System.out.println("already:" + cur);
+            System.out.println("------");
+            pre = cur;
+            cur = tmp;
+        }
+        return pre;
+    }
+
 }

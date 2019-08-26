@@ -1,6 +1,6 @@
 package common_interview;
 
-public class Frog_jumps_steps {
+public class Frog_Jumps_Steps {
     // 1.一次可以跳上1级台阶，也可以跳上2级。
     public static int jump1(int n) {
         if (n == 0) {
