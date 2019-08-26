@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a8b2ec5-f456-48ac-a306-14ae7ed935d4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/common_interview/YueSuFuHuan.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_interview/SingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/SingleList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/Frog_jumps_steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/Frog_jumps_steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingleList">
+  <component name="RunManager" selected="Application.YueSuFuHuan">
     <configuration name="BinSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.BinSearch" />
       <module name="sort" />
@@ -83,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Frog_jumps_steps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.Frog_jumps_steps" />
+    <configuration name="Frog_Jumps_Steps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.Frog_Jumps_Steps" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -109,12 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Try" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Try" />
+    <configuration name="YueSuFuHuan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.YueSuFuHuan" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="common_interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.YueSuFuHuan" />
         <item itemvalue="Application.SingleList" />
         <item itemvalue="Application.ZhuZiZhuangShui" />
         <item itemvalue="Application.BinSearch" />
-        <item itemvalue="Application.Frog_jumps_steps" />
-        <item itemvalue="Application.Try" />
+        <item itemvalue="Application.Frog_Jumps_Steps" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +164,7 @@
       <workItem from="1565335016846" duration="10968000" />
       <workItem from="1566310843242" duration="2001000" />
       <workItem from="1566615630862" duration="9632000" />
-      <workItem from="1566788113015" duration="6739000" />
+      <workItem from="1566788113015" duration="8947000" />
     </task>
     <servers />
   </component>
