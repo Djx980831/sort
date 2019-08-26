@@ -10,12 +10,12 @@ public class SingleList {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         return this.value + "-->" + (next != null ? next.toString() : "null");
     }
 
     //判断单链表是否有环
-    public static boolean isLoop(SingleList head){
+    public static boolean isLoop(SingleList head) {
         if (head == null) {
             return false;
         }
@@ -25,9 +25,9 @@ public class SingleList {
         fast = fast.next.next;
         slow = slow.next;
 
-        if(fast == slow){
+        if (fast == slow) {
             return true;
-        }else{
+        } else {
             fast = fast.next.next;
             slow = slow.next;
         }
@@ -36,16 +36,16 @@ public class SingleList {
 
     //单链表的逆置
     //递归用栈的思想，先把头节点进栈，接着头节点的下一节点再进栈，直到尾节点的位置
-    public static SingleList reverse(SingleList node){
+    public static SingleList reverse(SingleList node) {
         System.out.println("before:" + node);
-        if(node == null || node.next == null){
-            System.out.println("after:" + node) ;
+        if (node == null || node.next == null) {
+            System.out.println("after:" + node);
             return node;
         }
         SingleList head = reverse(node.next);
         node.next.next = node;
         node.next = null;
-        System.out.println("after:"+ head);
+        System.out.println("after:" + head);
         return head;
     }
 
@@ -62,12 +62,12 @@ public class SingleList {
 
     //非递归的方法其实就是顺着头结点往尾结点遍历，遍历期间把每个结点的nextNode替换掉，
     //替换过程需要注意临时存储下一个节点
-    public static SingleList reverse_1(SingleList node){
+    public static SingleList reverse_1(SingleList node) {
         SingleList pre = node;
         SingleList cur = node.next;
         pre.next = null;
         SingleList tmp = null;
-        while(cur != null){
+        while (cur != null) {
             tmp = cur.next;
             cur.next = pre;
             System.out.println("not ready:" + tmp);
