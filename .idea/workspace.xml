@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a8b2ec5-f456-48ac-a306-14ae7ed935d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common_interview/ZhuZiZhuangShui.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/META-INF/sort.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/Frog_jumps_steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/Frog_jumps_steps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/search/BinSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/search/BinSearch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_interview/SingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/SingleList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +69,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ZhuZiZhuangShui">
+  <component name="RunManager" selected="Application.SingleList">
     <configuration name="BinSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.BinSearch" />
       <module name="sort" />
@@ -100,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Main" />
+    <configuration name="SingleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.SingleList" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="common_interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SingleList" />
         <item itemvalue="Application.ZhuZiZhuangShui" />
         <item itemvalue="Application.BinSearch" />
         <item itemvalue="Application.Frog_jumps_steps" />
         <item itemvalue="Application.Try" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +162,7 @@
       <workItem from="1565335016846" duration="10968000" />
       <workItem from="1566310843242" duration="2001000" />
       <workItem from="1566615630862" duration="9632000" />
-      <workItem from="1566788113015" duration="5026000" />
+      <workItem from="1566788113015" duration="6150000" />
     </task>
     <servers />
   </component>
