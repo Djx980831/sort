@@ -1,5 +1,7 @@
 package common_interview;
 
+import java.util.ArrayList;
+
 public class SingleList {
     int value;
     SingleList next;
@@ -49,6 +51,17 @@ public class SingleList {
         return head;
     }
 
+    public static ArrayList<Integer> printList(SingleList head){
+        ArrayList<Integer> list = new ArrayList<>();
+        if(head != null){
+            list.addAll(printList(head.next));
+            list.add(head.value);
+        }
+        return list;
+    }
+
+
+
     public static void main(String[] args) {
         SingleList a = new SingleList(1);
         SingleList b = new SingleList(2);
@@ -57,7 +70,11 @@ public class SingleList {
         a.next = b;
         b.next = c;
         c.next = d;
-        reverse(a);
+        //reverse(a);
+        ArrayList<Integer> list = printList(a);
+        for(Integer integer : list){
+            System.out.println(integer);
+        }
     }
 
     //非递归的方法其实就是顺着头结点往尾结点遍历，遍历期间把每个结点的nextNode替换掉，

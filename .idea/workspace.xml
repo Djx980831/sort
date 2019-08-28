@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a8b2ec5-f456-48ac-a306-14ae7ed935d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common_interview/Permute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common_interview/DoubelStackIsQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/GeiWeiSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/GeiWeiSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/search/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/search/Dog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_interview/SingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/SingleList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,9 +73,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Dog">
-    <configuration name="AA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.AA" />
+  <component name="RunManager" selected="Application.DoubelStackIsQueue">
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.Dog" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -84,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="search.Dog" />
+    <configuration name="DoubelStackIsQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.DoubelStackIsQueue" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="search.*" />
+          <option name="PATTERN" value="common_interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.Test" />
+    <configuration name="SingleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.SingleList" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -138,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoubelStackIsQueue" />
+        <item itemvalue="Application.SingleList" />
         <item itemvalue="Application.Dog" />
         <item itemvalue="Application.Permute" />
         <item itemvalue="Application.GeiWeiSum" />
-        <item itemvalue="Application.AA" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +166,7 @@
       <workItem from="1565335016846" duration="10968000" />
       <workItem from="1566310843242" duration="2001000" />
       <workItem from="1566615630862" duration="9632000" />
-      <workItem from="1566788113015" duration="20764000" />
+      <workItem from="1566788113015" duration="24171000" />
     </task>
     <servers />
   </component>
@@ -188,6 +191,16 @@
           <url>file://$PROJECT_DIR$/src/common_interview/Permute.java</url>
           <line>30</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/common_interview/SingleList.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/common_interview/DoubelStackIsQueue.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
