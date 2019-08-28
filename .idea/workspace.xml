@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a8b2ec5-f456-48ac-a306-14ae7ed935d4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common_interview/GeiWeiSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common_interview/Permute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/GeiWeiSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/GeiWeiSum.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +70,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GeiWeiSum">
+  <component name="RunManager" selected="Application.Dog">
+    <configuration name="AA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.AA" />
+      <module name="sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="common_interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.Dog" />
+      <module name="sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GeiWeiSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="common_interview.GeiWeiSum" />
       <module name="sort" />
@@ -83,21 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HasStatic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.HasStatic" />
-      <module name="sort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="common_interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.SingleList" />
+    <configuration name="Permute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.Permute" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -122,26 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YueSuFuHuan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.YueSuFuHuan" />
-      <module name="sort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="common_interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Dog" />
+        <item itemvalue="Application.Permute" />
         <item itemvalue="Application.GeiWeiSum" />
+        <item itemvalue="Application.AA" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.HasStatic" />
-        <item itemvalue="Application.YueSuFuHuan" />
-        <item itemvalue="Application.SingleList" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +163,7 @@
       <workItem from="1565335016846" duration="10968000" />
       <workItem from="1566310843242" duration="2001000" />
       <workItem from="1566615630862" duration="9632000" />
-      <workItem from="1566788113015" duration="15097000" />
+      <workItem from="1566788113015" duration="20764000" />
     </task>
     <servers />
   </component>
@@ -179,5 +180,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/common_interview/Permute.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
