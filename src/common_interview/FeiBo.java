@@ -3,6 +3,7 @@ package common_interview;
 public class FeiBo {
 
     public static int getSum(int n){
+
         int sum = 0;
         int a = 1;
         int b = 1;
