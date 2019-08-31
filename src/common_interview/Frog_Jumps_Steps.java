@@ -1,5 +1,7 @@
 package common_interview;
 
+import java.util.Scanner;
+
 public class Frog_Jumps_Steps {
     // 1.一次可以跳上1级台阶，也可以跳上2级。
     public static int jump1(int n) {
@@ -40,6 +42,13 @@ public class Frog_Jumps_Steps {
         } else {
             return 2 * jump2(n - 1);
         }
+    }
+
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        System.out.println(jump1(n));
+        s.close();
     }
 
 }
