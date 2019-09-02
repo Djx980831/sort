@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5a8b2ec5-f456-48ac-a306-14ae7ed935d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/FeiBo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/FeiBo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_interview/AA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/AA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common_interview/SingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/SingleList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
