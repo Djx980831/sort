@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5a8b2ec5-f456-48ac-a306-14ae7ed935d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/FeiBo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/FeiBo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common_interview/AA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/AA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_interview/SingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/SingleList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +23,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>add</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -74,9 +72,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FeiBo">
-    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.Dog" />
+  <component name="RunManager" selected="Application.SingleList">
+    <configuration name="AA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.AA" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -88,21 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoubelStackIsQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.DoubelStackIsQueue" />
-      <module name="sort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="common_interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FeiBo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.FeiBo" />
+    <configuration name="BB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.BB" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +112,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.TreeMapTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.Test" />
+      <module name="sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="common_interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tx2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.tx2" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FeiBo" />
-        <item itemvalue="Application.TreeMapTest" />
-        <item itemvalue="Application.DoubelStackIsQueue" />
         <item itemvalue="Application.SingleList" />
-        <item itemvalue="Application.Dog" />
+        <item itemvalue="Application.tx2" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.BB" />
+        <item itemvalue="Application.AA" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +167,8 @@
       <workItem from="1566615630862" duration="9632000" />
       <workItem from="1566788113015" duration="26723000" />
       <workItem from="1567132686514" duration="6898000" />
+      <workItem from="1567303282645" duration="10363000" />
+      <workItem from="1567413743712" duration="987000" />
     </task>
     <servers />
   </component>
@@ -195,11 +195,6 @@
           <url>file://$PROJECT_DIR$/src/common_interview/Permute.java</url>
           <line>30</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common_interview/SingleList.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/common_interview/DoubelStackIsQueue.java</url>
