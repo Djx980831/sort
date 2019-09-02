@@ -2,6 +2,7 @@ package common_interview;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * 约瑟夫环问题
@@ -31,6 +32,14 @@ public class YueSuFuHuan {
     }
 
     public static void main(String[] args) {
-        System.out.println(getLast(10,4));
+        Scanner s = new Scanner(System.in);
+        int n = s.nextInt();
+        ArrayList<Integer> list = (ArrayList<Integer>) getLast(n,3);
+        int result = 0;
+        for(Integer i : list){
+            result = i;
+            break;
+        }
+        System.out.println(result + 1);
     }
 }
