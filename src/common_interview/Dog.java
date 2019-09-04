@@ -28,6 +28,7 @@ public class Dog extends Animal {
                 '}';
     }
 
+    //测试jdk8之后重写对返回值的要求
     @Override
     public Animal getOne(){
         Dog dog = new Dog();
