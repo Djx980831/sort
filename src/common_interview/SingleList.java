@@ -149,18 +149,15 @@ public class SingleList {
         g.next = h;
         h.next = i;
         i.next = j;
-        j.next = e;
+
+
+        System.out.println(reverse(a));
+
 //        k.next = l;
 //        l.next = m;
         //reverse(a);
         //SingleList result = getDaoShuKey(a, 6);
-        SingleList keyNode = hasCycleAndGetNode(a);
-        System.out.println("__-----------------------");
-        if (keyNode != null) {
-            System.out.println("有环，节点是：" + keyNode);
-        } else {
-            System.out.println("没环");
-        }
+
         // System.out.println(result);
 //        ArrayList<Integer> list = printList(a);
 //        for(Integer integer : list){

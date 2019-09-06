@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="5a8b2ec5-f456-48ac-a306-14ae7ed935d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/Dog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_interview/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_interview/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common_interview/SingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/SingleList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +42,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.Dog" />
+      <module name="sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="common_interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kind.QuickSort" />
+      <module name="sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="kind.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SingleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="common_interview.SingleList" />
       <module name="sort" />
@@ -78,9 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.Dog" />
+        <item itemvalue="Application.SingleList" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.SingleList1" />
-        <item itemvalue="Application.SingleList" />
       </list>
     </recent_temporary>
   </component>
@@ -89,5 +123,29 @@
   </component>
   <component name="TaskManager">
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/common_interview/SingleList.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/kind/QuickSort.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sort$QuickSort.ic" NAME="QuickSort Coverage Results" MODIFIED="1567482216118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>kind.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/sort$SingleList.ic" NAME="SingleList Coverage Results" MODIFIED="1567479160542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>common_interview.*</FILTER>
+    </SUITE>
   </component>
 </project>

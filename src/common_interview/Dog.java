@@ -21,6 +21,11 @@ public class Dog extends Animal {
     }
 
     @Override
+    public void eat(){
+        System.out.println("i am dog, i like eating gutou");
+    }
+
+    @Override
     public String toString() {
         return "Dog{" +
                 "kind='" + kind + '\'' +
@@ -28,16 +33,9 @@ public class Dog extends Animal {
                 '}';
     }
 
-    @Override
-    public Animal getOne(){
-        Dog dog = new Dog();
-        dog.setKind("erha");
-        dog.setPrice(2222);
-        return dog;
-    }
 
     public static void main(String[] args) {
-        Dog dog = new Dog();
-        System.out.println(dog.getOne());
+        Animal a = new Dog();
+        a.eat();
     }
 }
