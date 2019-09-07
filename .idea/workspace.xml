@@ -3,14 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="5a8b2ec5-f456-48ac-a306-14ae7ed935d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/common_interview/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/Dog.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_interview/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_interview/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_interview/SingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/SingleList.java" afterDir="false" />
+>>>>>>> 4fcbb4fe7b66269c2ad4978511849f1cf0c2b022
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -45,6 +56,8 @@
       </file>
     </leaf>
   </component>
+=======
+>>>>>>> 4fcbb4fe7b66269c2ad4978511849f1cf0c2b022
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -52,6 +65,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="FindInProjectRecents">
     <findStrings>
       <find>add</find>
@@ -138,6 +152,13 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="terminal" />
+=======
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="common_interview" />
+    </key>
+>>>>>>> 4fcbb4fe7b66269c2ad4978511849f1cf0c2b022
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -151,9 +172,15 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.DD">
     <configuration name="BB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="common_interview.BB" />
+=======
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.Dog" />
+>>>>>>> 4fcbb4fe7b66269c2ad4978511849f1cf0c2b022
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -165,12 +192,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="CC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="common_interview.CC" />
+=======
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="kind.QuickSort" />
+>>>>>>> 4fcbb4fe7b66269c2ad4978511849f1cf0c2b022
       <module name="sort" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common_interview.*" />
+          <option name="PATTERN" value="kind.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,8 +210,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="DD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="common_interview.DD" />
+=======
+    <configuration name="SingleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.SingleList" />
+>>>>>>> 4fcbb4fe7b66269c2ad4978511849f1cf0c2b022
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -191,8 +228,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="StringCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="common_interview.StringCount" />
+=======
+    <configuration name="SingleList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.SingleList1" />
+>>>>>>> 4fcbb4fe7b66269c2ad4978511849f1cf0c2b022
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -204,8 +246,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="TheStringChangeNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="common_interview.TheStringChangeNum" />
+=======
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.Test" />
+>>>>>>> 4fcbb4fe7b66269c2ad4978511849f1cf0c2b022
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -219,11 +266,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.DD" />
         <item itemvalue="Application.CC" />
         <item itemvalue="Application.BB" />
         <item itemvalue="Application.StringCount" />
         <item itemvalue="Application.TheStringChangeNum" />
+=======
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.Dog" />
+        <item itemvalue="Application.SingleList" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.SingleList1" />
+>>>>>>> 4fcbb4fe7b66269c2ad4978511849f1cf0c2b022
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +286,7 @@
     <configuration />
   </component>
   <component name="TaskManager">
+<<<<<<< HEAD
     <task active="true" id="Default" summary="Default task">
       <changelist id="5a8b2ec5-f456-48ac-a306-14ae7ed935d4" name="Default Changelist" comment="" />
       <created>1563273516344</created>
@@ -356,26 +412,22 @@
       </map>
     </option>
   </component>
+=======
+    <servers />
+  </component>
+>>>>>>> 4fcbb4fe7b66269c2ad4978511849f1cf0c2b022
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common_interview/Permute.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/common_interview/SingleList.java</url>
-          <line>73</line>
-          <properties />
-          <option name="timeStamp" value="2" />
+          <line>153</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common_interview/DoubelStackIsQueue.java</url>
-          <line>25</line>
-          <properties />
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/kind/QuickSort.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/common_interview/SingleList.java</url>
@@ -386,6 +438,7 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+<<<<<<< HEAD
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/search/BinSearch.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -493,5 +546,14 @@
         </state>
       </provider>
     </entry>
+=======
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sort$QuickSort.ic" NAME="QuickSort Coverage Results" MODIFIED="1567482216118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>kind.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/sort$SingleList.ic" NAME="SingleList Coverage Results" MODIFIED="1567479160542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>common_interview.*</FILTER>
+    </SUITE>
+>>>>>>> 4fcbb4fe7b66269c2ad4978511849f1cf0c2b022
   </component>
 </project>

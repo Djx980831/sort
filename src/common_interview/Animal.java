@@ -6,6 +6,10 @@ public class Animal {
     private String color;
     private int age;
 
+    public void eat(){
+        System.out.println("i am animal, i like eating food");
+    }
+
     public String getName() {
         return name;
     }
