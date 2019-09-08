@@ -33,7 +33,6 @@ public class Dog extends Animal {
                 '}';
     }
 
-<<<<<<< HEAD
     //测试jdk8之后重写对返回值的要求
     @Override
     public Animal getOne(){
@@ -42,8 +41,6 @@ public class Dog extends Animal {
         dog.setPrice(2222);
         return dog;
     }
-=======
->>>>>>> 4fcbb4fe7b66269c2ad4978511849f1cf0c2b022
 
     public static void main(String[] args) {
         Animal a = new Dog();
