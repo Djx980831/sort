@@ -21,7 +21,7 @@ public class Dog extends Animal {
     }
 
     @Override
-    public void eat(){
+    public void eat() {
         System.out.println("i am dog, i like eating gutou");
     }
 
@@ -33,22 +33,32 @@ public class Dog extends Animal {
                 '}';
     }
 
-    public static void sayHello(){
+
+    public static void sayHello() {
         System.out.println("Hello,I am DJX");
     }
 
-    public static int getNum(int n){
-        if(n < 2){
+    public static int getNum(int n) {
+        if (n < 2) {
             return n;
         }
         return getNum(n - 1) + getNum(n - 2);
     }
+        //测试jdk8之后重写对返回值的要求
+        @Override
+        public Animal getOne () {
+            Dog dog = new Dog();
+            dog.setKind("erha");
+            dog.setPrice(2222);
+            return dog;
+        }
 
-    public static void main(String[] args) {
+
+        public static void main (String[]args){
 //        Animal a = new Dog();
 //        a.eat();
 
-        System.out.println(getNum(5));
+            System.out.println(getNum(5));
 
+        }
     }
-}

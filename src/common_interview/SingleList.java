@@ -76,6 +76,9 @@ public class SingleList {
         return false;
     }
 
+
+
+
     public static SingleList hasCycleAndGetNode(SingleList head) {
         SingleList slow = head;
         SingleList quick = head;

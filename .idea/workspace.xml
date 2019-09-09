@@ -1,21 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a8b2ec5-f456-48ac-a306-14ae7ed935d4" name="Default Changelist" comment="">
+    <list default="true" id="a6c8cea3-37e8-456f-b9b7-9239b5b2c415" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/sort/common_interview/CC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sort/common_interview/DD.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sort/common_interview/PrintABC$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sort/common_interview/PrintABC$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sort/common_interview/PrintABC$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sort/common_interview/PrintABC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/sort/common_interview/Test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common_interview/PrintABC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common_interview/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/META-INF/sort.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/META-INF/sort.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/Dog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_interview/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common_interview/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common_interview/SingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/SingleList.java" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -24,11 +38,21 @@
       </list>
     </option>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="common_interview" />
-    </key>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1QapgLDq9knkkgA6frIY8ehdAVh" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -42,9 +66,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
-    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.Dog" />
+  <component name="RunManager" selected="Application.PrintABC">
+    <configuration name="BB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.BB" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -56,34 +80,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="kind.QuickSort" />
-      <module name="sort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="kind.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.SingleList" />
-      <module name="sort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="common_interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingleList1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.SingleList1" />
+    <configuration name="PrintABC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.PrintABC" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +108,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.Dog" />
-        <item itemvalue="Application.SingleList" />
+        <item itemvalue="Application.PrintABC" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.SingleList1" />
+        <item itemvalue="Application.BB" />
       </list>
     </recent_temporary>
   </component>
@@ -122,30 +118,29 @@
     <configuration />
   </component>
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6c8cea3-37e8-456f-b9b7-9239b5b2c415" name="Default Changelist" comment="" />
+      <created>1567938673186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567938673186</updated>
+      <workItem from="1567938686211" duration="2429000" />
+      <workItem from="1568018673083" duration="240000" />
+    </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/common_interview/SingleList.java</url>
-          <line>153</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/kind/QuickSort.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sort$QuickSort.ic" NAME="QuickSort Coverage Results" MODIFIED="1567482216118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>kind.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/sort$SingleList.ic" NAME="SingleList Coverage Results" MODIFIED="1567479160542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>common_interview.*</FILTER>
-    </SUITE>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
