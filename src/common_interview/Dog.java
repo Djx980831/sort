@@ -38,27 +38,35 @@ public class Dog extends Animal {
         System.out.println("Hello,I am DJX");
     }
 
+    public void run() {
+        System.out.println("i like running");
+    }
+
     public static int getNum(int n) {
         if (n < 2) {
             return n;
         }
         return getNum(n - 1) + getNum(n - 2);
     }
-        //测试jdk8之后重写对返回值的要求
-        @Override
-        public Animal getOne () {
-            Dog dog = new Dog();
-            dog.setKind("erha");
-            dog.setPrice(2222);
-            return dog;
-        }
 
+    //测试jdk8之后重写对返回值的要求
+    @Override
+    public Animal getOne() {
+        Dog dog = new Dog();
+        dog.setKind("erha");
+        dog.setPrice(2222);
+        return dog;
+    }
 
-        public static void main (String[]args){
+    public void printAge(){
+        System.out.println("i am 15 years old");
+    }
+
+    public static void main(String[] args) {
 //        Animal a = new Dog();
 //        a.eat();
 
-            System.out.println(getNum(5));
+        System.out.println(getNum(5));
 
-        }
     }
+}
