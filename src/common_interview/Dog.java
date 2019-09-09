@@ -33,9 +33,22 @@ public class Dog extends Animal {
                 '}';
     }
 
+    public static void sayHello(){
+        System.out.println("Hello,I am DJX");
+    }
+
+    public static int getNum(int n){
+        if(n < 2){
+            return n;
+        }
+        return getNum(n - 1) + getNum(n - 2);
+    }
 
     public static void main(String[] args) {
-        Animal a = new Dog();
-        a.eat();
+//        Animal a = new Dog();
+//        a.eat();
+
+        System.out.println(getNum(5));
+
     }
 }
