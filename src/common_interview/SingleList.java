@@ -76,7 +76,30 @@ public class SingleList {
         return false;
     }
 
-
+    //逆置单链表的指定部分
+    public static SingleList reverseSome(SingleList head, int from, int to) {
+        SingleList pCur = head.next;
+        SingleList result;
+        result = head;
+        int i;
+        //找到开始翻转的位置的前一个节点
+        for (i = 0; i < from - 1; i++) {
+            head = pCur;
+            pCur = pCur.next;
+        }
+        SingleList pPre = pCur;
+        pCur = pCur.next;
+        to--;
+        SingleList pNext;
+        for (; i < to; i++) {
+            pNext = pCur.next;
+            pCur.next = head.next;
+            head.next = pCur;
+            pPre.next = pNext;
+            pCur = pNext;
+        }
+        return result;
+    }
 
 
     public static SingleList hasCycleAndGetNode(SingleList head) {
