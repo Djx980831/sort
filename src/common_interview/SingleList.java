@@ -147,6 +147,27 @@ public class SingleList {
         return h1;
     }
 
+    //简单的单链表的逆置
+    public static SingleList reverseList(SingleList head) {
+        if (head == null || head.next == null) {
+            return null;
+        }
+        SingleList p1 = head;
+        SingleList p2 = head.next;
+        SingleList p3 = null;
+
+        while (p2 != null) {
+            p3 = p2.next;
+            p2.next = p1;
+            p1 = p2;
+            p2 = p3;
+        }
+        head.next = null;
+        head = p1;
+
+        return head;
+    }
+
     public static void main(String[] args) {
 
         SingleList a = new SingleList(1);
@@ -173,8 +194,7 @@ public class SingleList {
         h.next = i;
         i.next = j;
 
-
-        System.out.println(reverseSome(a, 3, 6));
+        System.out.println(reverseList(a));
 
 //        k.next = l;
 //        l.next = m;

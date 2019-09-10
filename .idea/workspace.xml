@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6c8cea3-37e8-456f-b9b7-9239b5b2c415" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common_interview/PeocessTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/PeocessTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/PeocessTree.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_interview/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common_interview/SingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/SingleList.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PeocessTree">
+  <component name="RunManager" selected="Application.SingleList">
     <configuration name="BB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="common_interview.BB" />
       <module name="sort" />
@@ -125,8 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PeocessTree" />
         <item itemvalue="Application.SingleList" />
+        <item itemvalue="Application.PeocessTree" />
         <item itemvalue="Application.PrintABC" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.BB" />
@@ -145,6 +143,7 @@
       <updated>1567938673186</updated>
       <workItem from="1567938686211" duration="2429000" />
       <workItem from="1568018673083" duration="8927000" />
+      <workItem from="1568087990637" duration="1002000" />
     </task>
     <servers />
   </component>
@@ -156,7 +155,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
