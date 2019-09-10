@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a6c8cea3-37e8-456f-b9b7-9239b5b2c415" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/PeocessTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/PeocessTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/SingleList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_interview/SingleList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/SingleList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_interview/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/Test.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +53,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SingleList">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="BB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="common_interview.BB" />
       <module name="sort" />
@@ -123,10 +121,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.SingleList" />
         <item itemvalue="Application.PeocessTree" />
         <item itemvalue="Application.PrintABC" />
-        <item itemvalue="Application.Test" />
         <item itemvalue="Application.BB" />
       </list>
     </recent_temporary>
