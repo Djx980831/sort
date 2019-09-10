@@ -101,7 +101,6 @@ public class SingleList {
         return result;
     }
 
-
     public static SingleList hasCycleAndGetNode(SingleList head) {
         SingleList slow = head;
         SingleList quick = head;
@@ -112,7 +111,7 @@ public class SingleList {
                 break;
             }
         }
-        if(quick == null || quick.next == null){
+        if (quick == null || quick.next == null) {
             return null;
         }
         slow = head;
@@ -150,8 +149,6 @@ public class SingleList {
 
     public static void main(String[] args) {
 
-        System.out.println("__-----------------------");
-
         SingleList a = new SingleList(1);
         SingleList b = new SingleList(2);
         SingleList c = new SingleList(3);
@@ -177,7 +174,7 @@ public class SingleList {
         i.next = j;
 
 
-        System.out.println(reverse(a));
+        System.out.println(reverseSome(a, 3, 6));
 
 //        k.next = l;
 //        l.next = m;

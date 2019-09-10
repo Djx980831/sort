@@ -33,7 +33,6 @@ public class Dog extends Animal {
                 '}';
     }
 
-
     public static void sayHello() {
         System.out.println("Hello,I am DJX");
     }
