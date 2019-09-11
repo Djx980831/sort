@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6c8cea3-37e8-456f-b9b7-9239b5b2c415" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/normal/array/FindRepetitionNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/normal/array/FindTwoNumSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/normal/array/MissingValue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/normal/list/ReverseList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common_interview/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/META-INF/sort.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/META-INF/sort.kotlin_module" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,13 +57,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="BB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.BB" />
+  <component name="RunManager" selected="Application.FindTwoNumSum">
+    <configuration name="FindRepetitionNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="normal.array.FindRepetitionNumber" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common_interview.*" />
+          <option name="PATTERN" value="normal.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindTwoNumSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="normal.array.FindTwoNumSum" />
+      <module name="sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="normal.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,19 +86,6 @@
     </configuration>
     <configuration name="PeocessTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="common_interview.PeocessTree" />
-      <module name="sort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="common_interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintABC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.PrintABC" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindTwoNumSum" />
+        <item itemvalue="Application.FindRepetitionNumber" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.SingleList" />
         <item itemvalue="Application.PeocessTree" />
-        <item itemvalue="Application.PrintABC" />
-        <item itemvalue="Application.BB" />
       </list>
     </recent_temporary>
   </component>
