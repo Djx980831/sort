@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6c8cea3-37e8-456f-b9b7-9239b5b2c415" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/normal/string/IsHuiWen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/normal/string/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common_interview/TestTryFinally.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/normal/string/RepeString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/normal/string/RepeString.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseString">
+  <component name="RunManager" selected="Application.TestTryFinally">
     <configuration name="IsHuiWen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="normal.string.IsHuiWen" />
       <module name="sort" />
@@ -109,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2048" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview._2048" />
+    <configuration name="TestTryFinally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.TestTryFinally" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -124,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestTryFinally" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.IsHuiWen" />
         <item itemvalue="Application.RepeString" />
         <item itemvalue="Application.RMBChange" />
-        <item itemvalue="Application._2048" />
       </list>
     </recent_temporary>
   </component>
