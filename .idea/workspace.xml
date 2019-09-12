@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6c8cea3-37e8-456f-b9b7-9239b5b2c415" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common_interview/TestTryFinally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common_interview/GetMin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common_interview/GetNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/TestTryFinally.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/TestTryFinally.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common_interview/TestTryFinally.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/common_interview/TestTryFinally.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,22 +58,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestTryFinally">
-    <configuration name="IsHuiWen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="normal.string.IsHuiWen" />
-      <module name="sort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="normal.string.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RMBChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.RMBChange" />
+  <component name="RunManager" selected="Application.GetMin">
+    <configuration name="GetMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.GetMin" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +72,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="normal.string.RepeString" />
+    <configuration name="GetNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.GetNumber" />
+      <module name="sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="common_interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsHuiWen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="normal.string.IsHuiWen" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GetMin" />
+        <item itemvalue="Application.GetNumber" />
         <item itemvalue="Application.TestTryFinally" />
         <item itemvalue="Application.ReverseString" />
         <item itemvalue="Application.IsHuiWen" />
-        <item itemvalue="Application.RepeString" />
-        <item itemvalue="Application.RMBChange" />
       </list>
     </recent_temporary>
   </component>

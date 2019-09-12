@@ -35,9 +35,16 @@ public class TestTryFinally {
     }
 
     public static void main(String[] args) {
-       ArrayList<Integer> list = test();
-       for(Integer i : list){
-           System.out.println(i);
-       }
+//       ArrayList<Integer> list = test();
+//       for(Integer i : list){
+//           System.out.println(i);
+//       }
+
+        Integer a = 256;
+        Integer b = 1000;
+
+        boolean flag = a < b;
+
+        System.out.println(flag);
     }
 }
