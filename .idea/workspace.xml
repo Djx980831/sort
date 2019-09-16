@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a6c8cea3-37e8-456f-b9b7-9239b5b2c415" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/search/BinSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/search/BinSearch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search/BinSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/search/BinSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/search/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/normal/array/MissingValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/normal/array/MissingValue.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinSearch">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="BinSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="search.BinSearch" />
       <module name="sort" />
@@ -70,8 +70,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="First" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.First" />
+    <configuration name="PrintABC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="common_interview.PrintABC" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -83,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintABC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="common_interview.PrintABC" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="normal.test.Test" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="common_interview.*" />
+          <option name="PATTERN" value="normal.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.BinSearch" />
         <item itemvalue="Application.TestABC" />
         <item itemvalue="Application.PrintABC" />
         <item itemvalue="Application.TheSum" />
-        <item itemvalue="Application.First" />
       </list>
     </recent_temporary>
   </component>
