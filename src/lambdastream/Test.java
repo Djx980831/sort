@@ -55,6 +55,7 @@ public class Test {
         System.out.println("平均：" + num.getAverage());
         System.out.println("max：" + num.getMax());
 
+        //list 转为 map 对象
         List<Integer> idList = list.stream().map(student -> student.getId()).collect(Collectors.toList());
         idList.stream().forEach(id -> System.out.println(id));
 

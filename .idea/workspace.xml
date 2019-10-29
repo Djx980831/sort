@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f27c2bac-973a-429f-ace2-fecbb6957713" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambdastream/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdastream/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/normal/test/BB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/normal/test/BackgroundSerachParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/normal/test/CC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/normal/test/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/normal/test/Transform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/Abc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/common_interview/Abc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/ArrayAndDealThreeNumber.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/First.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/PrintABC$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/PrintABC$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/PrintABC$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/PrintABC.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/common_interview/Second.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/jdkinvoker/IUserManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/jdkinvoker/JdkProxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/jdkinvoker/UserManagerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/sort/normal/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/normal/test/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jdkproxy/IuserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdkproxy/IuserManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambdastream/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdastream/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -112,8 +92,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lambdastream/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+            <state relative-caret-position="205">
+              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -351,12 +331,12 @@
       <workItem from="1571295816298" duration="5611000" />
       <workItem from="1571795516644" duration="3554000" />
       <workItem from="1571993134525" duration="584000" />
-      <workItem from="1572227649960" duration="4680000" />
+      <workItem from="1572227649960" duration="4781000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19311000" />
+    <option name="totallyTimeSpent" value="19412000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
@@ -378,7 +358,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.40509555" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" visible="true" weight="0.40509555" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007153" side_tool="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3299363" />
@@ -580,8 +560,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/lambdastream/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="58" column="8" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
+        <state relative-caret-position="205">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
