@@ -8,5 +8,4 @@ public interface IuserManager {
     //删除用户抽象方法
     void delUser(String userName);
 
-
 }
