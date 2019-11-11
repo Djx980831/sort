@@ -23,6 +23,10 @@ public class TT {
                 System.out.print(printList.get(i) + ",");
             }
         }
+
+        int a = 10;
+        System.out.println(a);
+        System.out.println("iiiii");
     }
 
     public static ArrayList<Integer> print(int[][] array) {
