@@ -1,2 +1,8 @@
-package lambdastream;public enum SpecialityEnum {
+package lambdastream;
+
+public enum SpecialityEnum {
+    SING,
+    DANCE,
+    SWIMMING,
+    RUNNING;
 }
