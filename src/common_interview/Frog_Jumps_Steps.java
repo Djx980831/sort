@@ -1,6 +1,8 @@
 package common_interview;
 
-import java.util.Scanner;
+import org.w3c.dom.stylesheets.LinkStyle;
+
+import java.util.*;
 
 public class Frog_Jumps_Steps {
     // 1.一次可以跳上1级台阶，也可以跳上2级。
@@ -49,6 +51,13 @@ public class Frog_Jumps_Steps {
         int n = s.nextInt();
         System.out.println(jump1(n));
         s.close();
+
+        List<String> list = new ArrayList();
+        list.add("aa");
+
+        Map<String, String> map = new HashMap<>();
+        map.put("dd", "dd");
+        map.remove("dd");
     }
 
 }
