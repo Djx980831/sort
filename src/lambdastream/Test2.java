@@ -1,6 +1,7 @@
 package lambdastream;
 
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -30,12 +31,17 @@ public class Test2 {
                 new Student(9, "ww", "is")
         );
 
-        List<Integer> idsList = list.stream().map(student -> student.getId()).collect(Collectors.toList());
-
-        Map<Integer, String> map = list.stream().distinct().collect(Collectors.toMap(Student::getId, Student::getName));
-
-        for (Map.Entry<Integer, String> entry : map.entrySet()) {
-            System.out.println(entry.getKey() + " " + entry.getValue());
+        Iterator<Student> iterator = list.iterator();
+        while (iterator.hasNext()) {
+            System.out.println(iterator.next());
         }
+
+//        List<Integer> idsList = list.stream().map(student -> student.getId()).collect(Collectors.toList());
+//
+//        Map<Integer, String> map = list.stream().distinct().collect(Collectors.toMap(Student::getId, Student::getName));
+//
+//        for (Map.Entry<Integer, String> entry : map.entrySet()) {
+//            System.out.println(entry.getKey() + " " + entry.getValue());
+//        }
     }
 }

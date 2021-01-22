@@ -55,10 +55,10 @@ public class Test {
         System.out.println("平均：" + num.getAverage());
         System.out.println("max：" + num.getMax());
 
-        //list 转为 map 对象
         List<Integer> idList = list.stream().map(student -> student.getId()).collect(Collectors.toList());
         idList.stream().forEach(id -> System.out.println(id));
 
+        //list 转为 map 对象
         Map<Integer, String> map = list.stream().distinct().collect(Collectors.toMap(Student::getId, Student::getName));
         for (Map.Entry<Integer, String> entry : map.entrySet()) {
             System.out.println(entry.getKey() + " " + entry.getValue());

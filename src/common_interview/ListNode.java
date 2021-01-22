@@ -4,11 +4,11 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
-public class SingleList {
+public class ListNode {
     int value;
-    SingleList next;
+    ListNode next;
 
-    public SingleList(int value) {
+    public ListNode(int value) {
         this.value = value;
         this.next = null;
     }
@@ -19,12 +19,12 @@ public class SingleList {
     }
 
     //判断单链表是否有环
-    public static boolean isLoop(SingleList head) {
+    public static boolean isLoop(ListNode head) {
         if (head == null) {
             return false;
         }
-        SingleList fast = head;
-        SingleList slow = head;
+        ListNode fast = head;
+        ListNode slow = head;
 
         fast = fast.next.next;
         slow = slow.next;
@@ -40,20 +40,17 @@ public class SingleList {
 
     //单链表的逆置
     //递归用栈的思想，先把头节点进栈，接着头节点的下一节点再进栈，直到尾节点的位置
-    public static SingleList reverse(SingleList node) {
-        System.out.println("before:" + node);
-        if (node == null || node.next == null) {
-            System.out.println("after:" + node);
-            return node;
+    public static ListNode reverse(ListNode root) {
+        if (root == null || root.next == null) {
+            return root;
         }
-        SingleList head = reverse(node.next);
-        node.next.next = node;
-        node.next = null;
-        System.out.println("after:" + head);
+        ListNode head = reverse(root.next);
+        root.next.next = root;
+        root.next = null;
         return head;
     }
 
-    public static ArrayList<Integer> printList(SingleList head) {
+    public static ArrayList<Integer> printList(ListNode head) {
         ArrayList<Integer> list = new ArrayList<>();
         if (head != null) {
             list.addAll(printList(head.next));
@@ -63,8 +60,8 @@ public class SingleList {
     }
 
     //判断单链表是否有环
-    public static boolean hasCycle(SingleList head) {
-        Set<SingleList> set = new HashSet<>();
+    public static boolean hasCycle(ListNode head) {
+        Set<ListNode> set = new HashSet<>();
         while (head != null) {
             if (set.contains(head)) {
                 return true;
@@ -77,9 +74,9 @@ public class SingleList {
     }
 
     //逆置单链表的指定部分
-    public static SingleList reverseSome(SingleList head, int from, int to) {
-        SingleList pCur = head.next;
-        SingleList result;
+    public static ListNode reverseSome(ListNode head, int from, int to) {
+        ListNode pCur = head.next;
+        ListNode result;
         result = head;
         int i;
         //找到开始翻转的位置的前一个节点
@@ -87,10 +84,10 @@ public class SingleList {
             head = pCur;
             pCur = pCur.next;
         }
-        SingleList pPre = pCur;
+        ListNode pPre = pCur;
         pCur = pCur.next;
         to--;
-        SingleList pNext;
+        ListNode pNext;
         for (; i < to; i++) {
             pNext = pCur.next;
             pCur.next = head.next;
@@ -101,9 +98,9 @@ public class SingleList {
         return result;
     }
 
-    public static SingleList hasCycleAndGetNode(SingleList head) {
-        SingleList slow = head;
-        SingleList quick = head;
+    public static Integer hasCycleAndGetNode(ListNode head) {
+        ListNode slow = head;
+        ListNode quick = head;
         while (quick != null && quick.next != null) {
             quick = quick.next.next;
             slow = slow.next;
@@ -115,21 +112,24 @@ public class SingleList {
             return null;
         }
         slow = head;
+        Integer i = 0;
         while (quick != slow) {
             slow = slow.next;
             quick = quick.next;
+            i++;
         }
-        return slow;
+        //return slow;
+        return i - 1;
     }
 
     //获取单链表指定倒数位置得key
-    public static SingleList getDaoShuKey(SingleList head, int k) {
+    public static ListNode getDaoShuKey(ListNode head, int k) {
         if (k <= 0 || head == null) {
             return null;
         }
 
-        SingleList h1 = head;
-        SingleList h2 = head;
+        ListNode h1 = head;
+        ListNode h2 = head;
 
         for (int i = 0; i < k; i++) {
             if (h2.next != null) {
@@ -148,13 +148,13 @@ public class SingleList {
     }
 
     //简单的单链表的逆置
-    public static SingleList reverseList(SingleList head) {
-        if (head == null || head.next == null) {
+    public static ListNode reverseList(ListNode root) {
+        if (root == null || root.next == null) {
             return null;
         }
-        SingleList p1 = head;
-        SingleList p2 = head.next;
-        SingleList p3 = null;
+        ListNode p1 = root;
+        ListNode p2 = root.next;
+        ListNode p3 = null;
 
         while (p2 != null) {
             p3 = p2.next;
@@ -162,27 +162,27 @@ public class SingleList {
             p1 = p2;
             p2 = p3;
         }
-        head.next = null;
-        head = p1;
+        root.next = null;
+        root = p1;
 
-        return head;
+        return root;
     }
 
     public static void main(String[] args) {
 
-        SingleList a = new SingleList(1);
-        SingleList b = new SingleList(2);
-        SingleList c = new SingleList(3);
-        SingleList d = new SingleList(4);
-        SingleList e = new SingleList(5);
-        SingleList f = new SingleList(6);
-        SingleList g = new SingleList(7);
-        SingleList h = new SingleList(8);
-        SingleList i = new SingleList(9);
-        SingleList j = new SingleList(10);
-//        SingleList k = new SingleList(11);
-//        SingleList l = new SingleList(12);
-//        SingleList m = new SingleList(13);
+        ListNode a = new ListNode(1);
+        ListNode b = new ListNode(2);
+        ListNode c = new ListNode(3);
+        ListNode d = new ListNode(4);
+        ListNode e = new ListNode(5);
+        ListNode f = new ListNode(6);
+        ListNode g = new ListNode(7);
+        ListNode h = new ListNode(8);
+        ListNode i = new ListNode(9);
+        ListNode j = new ListNode(10);
+//        ListNode k = new ListNode(11);
+//        ListNode l = new ListNode(12);
+//        ListNode m = new ListNode(13);
 
         a.next = b;
         b.next = c;
@@ -192,14 +192,14 @@ public class SingleList {
         f.next = g;
         g.next = h;
         h.next = i;
-        i.next = j;
+        i.next = f;
 
-        System.out.println(reverseList(a));
+        System.out.println(hasCycleAndGetNode(a));
 
 //        k.next = l;
 //        l.next = m;
         //reverse(a);
-        //SingleList result = getDaoShuKey(a, 6);
+        //ListNode result = getDaoShuKey(a, 6);
 
         // System.out.println(result);
 //        ArrayList<Integer> list = printList(a);
@@ -210,11 +210,11 @@ public class SingleList {
 
     //非递归的方法其实就是顺着头结点往尾结点遍历，遍历期间把每个结点的nextNode替换掉，
     //替换过程需要注意临时存储下一个节点
-    public static SingleList reverse_1(SingleList node) {
-        SingleList pre = node;
-        SingleList cur = node.next;
+    public static ListNode reverse_1(ListNode node) {
+        ListNode pre = node;
+        ListNode cur = node.next;
         pre.next = null;
-        SingleList tmp = null;
+        ListNode tmp = null;
         while (cur != null) {
             tmp = cur.next;
             cur.next = pre;
