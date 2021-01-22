@@ -1,0 +1,207 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"f27c2bac-973a-429f-ace2-fecbb6957713\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambdastream/OutstandingClass.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambdastream/PipilTest.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambdastream/Pupil.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lambdastream/SpecialityEnum.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"DefaultGradleProjectSettings\">\r\n    <option name=\"isMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Enum\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"FindInProjectRecents\">\r\n    <findStrings>\r\n      <find>res</find>\r\n      <find>array</find>\r\n      <find>N</find>\r\n    </findStrings>\r\n    <replaceStrings>\r\n      <replace>getSolution</replace>\r\n      <replace>persons</replace>\r\n    </replaceStrings>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1hUY2mpEY9ktlKi8ERbIfnajhPd\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyClassDialog.RECENTS_KEY\">\r\n      <recent name=\"normal.test\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Application.PipilTest\">\r\n    <configuration name=\"PipilTest\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lambdastream.PipilTest\" />\r\n      <module name=\"sort\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lambdastream.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"RR\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"normal.test.RR\" />\r\n      <module name=\"sort\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"normal.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"TT\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"normal.test.TT\" />\r\n      <module name=\"sort\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"normal.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Test (1)\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lambdastream.Test\" />\r\n      <module name=\"sort\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lambdastream.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Test2\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"lambdastream.Test2\" />\r\n      <module name=\"sort\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"lambdastream.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"ArquillianJUnit\" factoryName=\"\" nameIsGenerated=\"true\">\r\n      <option name=\"arquillianRunConfiguration\">\r\n        <value>\r\n          <option name=\"containerStateName\" value=\"\" />\r\n        </value>\r\n      </option>\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.PipilTest\" />\r\n        <item itemvalue=\"Application.RR\" />\r\n        <item itemvalue=\"Application.TT\" />\r\n        <item itemvalue=\"Application.Test2\" />\r\n        <item itemvalue=\"Application.Test (1)\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"f27c2bac-973a-429f-ace2-fecbb6957713\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1571218536715</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1571218536715</updated>\r\n      <workItem from=\"1571218539093\" duration=\"4141000\" />\r\n      <workItem from=\"1571295816298\" duration=\"5611000\" />\r\n      <workItem from=\"1571795516644\" duration=\"3554000\" />\r\n      <workItem from=\"1571993134525\" duration=\"584000\" />\r\n      <workItem from=\"1572227649960\" duration=\"4825000\" />\r\n      <workItem from=\"1572832165242\" duration=\"3205000\" />\r\n      <workItem from=\"1572870840160\" duration=\"598000\" />\r\n      <workItem from=\"1572946665366\" duration=\"583000\" />\r\n      <workItem from=\"1572957724595\" duration=\"661000\" />\r\n      <workItem from=\"1573009728094\" duration=\"979000\" />\r\n      <workItem from=\"1573387272701\" duration=\"8000\" />\r\n      <workItem from=\"1573439111375\" duration=\"640000\" />\r\n      <workItem from=\"1573475631203\" duration=\"571000\" />\r\n      <workItem from=\"1600066934401\" duration=\"4799000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_FILTERS\">\r\n      <map>\r\n        <entry key=\"Branch\">\r\n          <value>\r\n            <list />\r\n          </value>\r\n        </entry>\r\n        <entry key=\"User\">\r\n          <value>\r\n            <list />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"574\" y=\"128\" key=\"#com.intellij.ide.util.MemberChooser\" timestamp=\"1600068770033\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state x=\"574\" y=\"128\" key=\"#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824\" timestamp=\"1600068770033\" />\r\n    <state width=\"1493\" height=\"277\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1600071500160\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state width=\"1493\" height=\"277\" key=\"GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824\" timestamp=\"1600071500160\" />\r\n    <state width=\"1493\" height=\"277\" key=\"GridCell.Tab.0.center\" timestamp=\"1600071500160\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state width=\"1493\" height=\"277\" key=\"GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824\" timestamp=\"1600071500160\" />\r\n    <state width=\"1493\" height=\"277\" key=\"GridCell.Tab.0.left\" timestamp=\"1600071500160\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state width=\"1493\" height=\"277\" key=\"GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824\" timestamp=\"1600071500160\" />\r\n    <state width=\"1493\" height=\"277\" key=\"GridCell.Tab.0.right\" timestamp=\"1600071500160\">\r\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\r\n    </state>\r\n    <state width=\"1493\" height=\"277\" key=\"GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824\" timestamp=\"1600071500160\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision cc3a5d9a9898779f8dcca56b95efdb089c85a014)
++++ .idea/workspace.xml	(date 1603444953270)
+@@ -20,11 +20,15 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="f27c2bac-973a-429f-ace2-fecbb6957713" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/lambdastream/OutstandingClass.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/lambdastream/PipilTest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/lambdastream/Pupil.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/lambdastream/SpecialityEnum.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/normal/test/Animal.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/normal/test/Cat.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/normal/test/Dog.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/sort/lambdastream/PipilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/lambdastream/PipilTest.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/sort/normal/test/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/normal/test/Main.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/sort/normal/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/normal/test/Test.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/normal/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/normal/test/Main.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/normal/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/normal/test/Test.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -73,19 +77,20 @@
+     <property name="node.js.path.for.package.tslint" value="project" />
+     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+     <property name="node.js.selected.package.tslint" value="(autodetect)" />
++    <property name="nodejs_package_manager_path" value="npm" />
+   </component>
+   <component name="RecentsManager">
+     <key name="CopyClassDialog.RECENTS_KEY">
+       <recent name="normal.test" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="Application.PipilTest">
+-    <configuration name="PipilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="lambdastream.PipilTest" />
++  <component name="RunManager" selected="Application.Test">
++    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="normal.test.Main" />
+       <module name="sort" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="lambdastream.*" />
++          <option name="PATTERN" value="normal.test.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -93,12 +98,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="RR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="normal.test.RR" />
++    <configuration name="PipilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="lambdastream.PipilTest" />
+       <module name="sort" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="normal.test.*" />
++          <option name="PATTERN" value="lambdastream.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -106,8 +111,8 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="TT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="normal.test.TT" />
++    <configuration name="RR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="normal.test.RR" />
+       <module name="sort" />
+       <extension name="coverage">
+         <pattern>
+@@ -119,12 +124,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="lambdastream.Test" />
++    <configuration name="TT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="normal.test.TT" />
+       <module name="sort" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="lambdastream.*" />
++          <option name="PATTERN" value="normal.test.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -132,12 +137,12 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="lambdastream.Test2" />
++    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="normal.test.Test" />
+       <module name="sort" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="lambdastream.*" />
++          <option name="PATTERN" value="normal.test.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+@@ -145,24 +150,13 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+-      <option name="arquillianRunConfiguration">
+-        <value>
+-          <option name="containerStateName" value="" />
+-        </value>
+-      </option>
+-      <option name="TEST_OBJECT" value="class" />
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="Application.Test" />
++        <item itemvalue="Application.Main" />
+         <item itemvalue="Application.PipilTest" />
+         <item itemvalue="Application.RR" />
+         <item itemvalue="Application.TT" />
+-        <item itemvalue="Application.Test2" />
+-        <item itemvalue="Application.Test (1)" />
+       </list>
+     </recent_temporary>
+   </component>
+@@ -190,7 +184,20 @@
+       <workItem from="1573387272701" duration="8000" />
+       <workItem from="1573439111375" duration="640000" />
+       <workItem from="1573475631203" duration="571000" />
+-      <workItem from="1600066934401" duration="4799000" />
++      <workItem from="1600066934401" duration="5375000" />
++      <workItem from="1600080765922" duration="3150000" />
++      <workItem from="1600132326205" duration="3171000" />
++      <workItem from="1600218566358" duration="28000" />
++      <workItem from="1600418742315" duration="5327000" />
++      <workItem from="1600916120107" duration="1414000" />
++      <workItem from="1600999588511" duration="1442000" />
++      <workItem from="1601435771526" duration="245000" />
++      <workItem from="1602667863488" duration="1228000" />
++      <workItem from="1602759342611" duration="1933000" />
++      <workItem from="1602819389598" duration="21000" />
++      <workItem from="1602936370127" duration="637000" />
++      <workItem from="1602993390734" duration="262000" />
++      <workItem from="1603417795929" duration="1546000" />
+     </task>
+     <servers />
+   </component>
+@@ -224,25 +231,33 @@
+     <option name="oldMeFiltersMigrated" value="true" />
+   </component>
+   <component name="WindowStateProjectService">
+-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1600068770033">
++    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1600420568160">
+       <screen x="0" y="0" width="1536" height="824" />
+     </state>
+-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600068770033" />
+-    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1600071500160">
++    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600420568160" />
++    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1602940101161">
+       <screen x="0" y="0" width="1536" height="824" />
+     </state>
+-    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600071500160" />
+-    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1600071500160">
++    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602940101161" />
++    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1602940101161">
+       <screen x="0" y="0" width="1536" height="824" />
+     </state>
+-    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600071500160" />
+-    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1600071500160">
++    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602940101161" />
++    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1602940101161">
+       <screen x="0" y="0" width="1536" height="824" />
+     </state>
+-    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600071500160" />
+-    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1600071500160">
++    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602940101161" />
++    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1602940101161">
+       <screen x="0" y="0" width="1536" height="824" />
+     </state>
+-    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600071500160" />
++    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602940101161" />
++    <state x="544" y="114" key="RollbackChangesDialog" timestamp="1600133335561">
++      <screen x="0" y="0" width="1536" height="824" />
++    </state>
++    <state x="544" y="114" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1600133335561" />
++    <state x="178" y="73" key="new project wizard" timestamp="1602667889248">
++      <screen x="0" y="0" width="1536" height="824" />
++    </state>
++    <state x="178" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1602667889248" />
+   </component>
+ </project>
+\ No newline at end of file

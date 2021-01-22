@@ -20,11 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27c2bac-973a-429f-ace2-fecbb6957713" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/lambdastream/OutstandingClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdastream/PipilTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdastream/Pupil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdastream/SpecialityEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/normal/test/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/normal/test/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/normal/test/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/normal/test/SpiltListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tcl/DealEmxFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/lambdastream/PipilTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/lambdastream/PipilTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/sort/normal/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/sort/normal/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/normal/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/normal/test/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +47,16 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>res</find>
-      <find>array</find>
-      <find>N</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>getSolution</replace>
-      <replace>persons</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hUY2mpEY9ktlKi8ERbIfnajhPd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -73,13 +72,27 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="normal.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PipilTest">
+  <component name="RunManager" selected="Application.DealEmxFile">
+    <configuration name="DealEmxFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tcl.DealEmxFile" />
+      <module name="sort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tcl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PipilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lambdastream.PipilTest" />
       <module name="sort" />
@@ -106,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="normal.test.TT" />
+    <configuration name="SpiltListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="normal.test.SpiltListTest" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
@@ -119,25 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambdastream.Test" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="normal.test.Test" />
       <module name="sort" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambdastream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambdastream.Test2" />
-      <module name="sort" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambdastream.*" />
+          <option name="PATTERN" value="normal.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DealEmxFile" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.SpiltListTest" />
         <item itemvalue="Application.PipilTest" />
         <item itemvalue="Application.RR" />
-        <item itemvalue="Application.TT" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -191,6 +191,24 @@
       <workItem from="1573439111375" duration="640000" />
       <workItem from="1573475631203" duration="571000" />
       <workItem from="1600066934401" duration="4799000" />
+      <workItem from="1604021109103" duration="2578000" />
+      <workItem from="1604473919160" duration="849000" />
+      <workItem from="1605579820573" duration="55000" />
+      <workItem from="1605582747578" duration="4547000" />
+      <workItem from="1605661632958" duration="3995000" />
+      <workItem from="1606726550595" duration="1334000" />
+      <workItem from="1606992084965" duration="1434000" />
+      <workItem from="1607934833870" duration="1781000" />
+      <workItem from="1608272112254" duration="211000" />
+      <workItem from="1608623923815" duration="2907000" />
+      <workItem from="1608866126223" duration="3868000" />
+      <workItem from="1609118128308" duration="19000" />
+      <workItem from="1609119395194" duration="852000" />
+      <workItem from="1609134373328" duration="5056000" />
+      <workItem from="1609207525543" duration="1450000" />
+      <workItem from="1609296159779" duration="1211000" />
+      <workItem from="1609723425603" duration="107000" />
+      <workItem from="1611027428370" duration="24902000" />
     </task>
     <servers />
   </component>
@@ -224,25 +242,76 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1600068770033">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1609207770047">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1600068770033" />
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1600071500160">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1609207770047" />
+    <state width="1493" height="24" key="GridCell.Tab.0.bottom" timestamp="1611209644060">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600071500160" />
-    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1600071500160">
+    <state width="1493" height="24" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611209644060" />
+    <state width="1493" height="24" key="GridCell.Tab.0.center" timestamp="1611209644060">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600071500160" />
-    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1600071500160">
+    <state width="1493" height="24" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1611209644060" />
+    <state width="1493" height="24" key="GridCell.Tab.0.left" timestamp="1611209644060">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600071500160" />
-    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1600071500160">
+    <state width="1493" height="24" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1611209644060" />
+    <state width="1493" height="24" key="GridCell.Tab.0.right" timestamp="1611209644060">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600071500160" />
+    <state width="1493" height="24" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1611209644060" />
+    <state width="1493" height="182" key="GridCell.Tab.1.bottom" timestamp="1611059483242">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="182" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1611059483242" />
+    <state width="1493" height="182" key="GridCell.Tab.1.center" timestamp="1611059483242">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="182" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1611059483242" />
+    <state width="1493" height="182" key="GridCell.Tab.1.left" timestamp="1611059483242">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="182" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1611059483242" />
+    <state width="1493" height="182" key="GridCell.Tab.1.right" timestamp="1611059483242">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="182" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1611059483242" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1609135768848">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1609135768848" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/normal/test/Test.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/normal/test/Test.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/normal/test/Test.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tcl/DealEmxFile.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sort$SpiltListTest.ic" NAME="SpiltListTest Coverage Results" MODIFIED="1605579865387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>normal.test.*</FILTER>
+    </SUITE>
   </component>
 </project>
